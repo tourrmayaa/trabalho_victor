@@ -1,0 +1,95 @@
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#f0f4f8",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 20,
+  }, // ← Adicionada a vírgula
+
+  card: {
+    flexDirection: "column",
+    alignItems: "center",
+    backgroundColor: "#ffffff",
+    width: "100%",
+    maxWidth: 380,
+    borderRadius: 24,
+    paddingVertical: 40,
+    paddingHorizontal: 30,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 12,
+    elevation: 8,
+  },
+
+  foto: {
+    width: 150,
+    height: 150,
+    borderRadius: 75,
+    marginBottom: 24,
+    borderWidth: 5,
+    borderColor: "#ffffff",
+  },
+
+  nome: {
+    fontSize: 28,
+    fontWeight: "700",
+    color: "#1a1a1a",
+    textAlign: "center",
+    marginBottom: 4,
+  },
+
+  profissao: {
+    fontSize: 16,
+    fontWeight: "500",
+    color: "#666666",
+    textAlign: "center",
+    marginBottom: 20,
+  },
+
+  divisor: {
+    width: "85%",
+    height: 1,
+    backgroundColor: "#e0e0e0",
+    marginVertical: 24,
+  },
+
+  contatoContainer: {
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+  },
+
+  contatoLabel: {
+    fontSize: 13,
+    fontWeight: "600",
+    color: "#888888",
+    marginTop: 12,
+    marginBottom: 2,
+  },
+
+  contato: {
+    fontSize: 15,
+    color: "#222222",
+    marginBottom: 8,
+  },
+
+  // 04 - Seção Sobre mim (comentário correto em JS)
+  sobreTitulo: {
+    fontSize: 18,
+    fontWeight: "700",
+    color: "#1a1a1a",
+    marginBottom: 12,
+    textAlign: "center",
+  },
+
+  // 04 - Texto Sobre mim
+  sobreTexto: {
+    fontSize: 15,
+    lineHeight: 22,
+    color: "#444444",
+    textAlign: "center",
+    paddingHorizontal: 10,
+  },
+});
